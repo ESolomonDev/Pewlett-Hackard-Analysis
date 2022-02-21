@@ -4,7 +4,7 @@ module 7 - Introduction to SQL
 
 ## Overview of the analysis
   
-	The purpose of this project is to create a summary report and count of a company’s employees entering retirement age within the coming years. By manipulating CSV data imported into SQL tables to quickly get some initial estimates and counts of potential retirees by department that are due for retirement.
+The purpose of this project is to create a summary report and count of a company’s employees entering retirement age within the coming years. By manipulating CSV data imported into SQL tables to quickly get some initial estimates and counts of potential retirees by department that are due for retirement.
 
 ## Results
 
@@ -18,8 +18,16 @@ module 7 - Introduction to SQL
 -	Over 70,000 (72,458) roles will need to be filled in the coming years to fill current positions.
 -	There are not nearly enough qualified employees to mentor all the new positions needed, there are 1,549 employees qualified to be potential mentors. That would mean each mentor would need to oversee the training of 45-46 employees per mentor.
 
-This can be seen using the following query:
+This can be seen using the following querries:
 
-![mentors_by_department_query](Resources/mentors_by_department_query.png)
+Mentors by Department
 
-![mentors_by_department](Resources/mentors_by_department.png)
+![mentors_by_department_query](Resources/mentors_by_department_query.PNG)
+
+![mentors_by_department](Resources/mentors_by_department.PNG)
+
+Retirees by Department
+
+![retirees_by_dept_query](Resources/retirees_by_dept_query.PNG)
+
+![retirees_by_dept_output](Resources/retirees_by_dept_output.PNG)
